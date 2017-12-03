@@ -1,3 +1,5 @@
+# USING EACH #
+
 def square_array(array)
   squared_elements = []
   array.each do |element|
@@ -6,3 +8,9 @@ def square_array(array)
   end
   squared_elements
 end
+
+# USING COLLECT #
+
+# def square_array(array)
+#  array.collect {|element| element*element }
+# end
